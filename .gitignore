@@ -1,0 +1,39 @@
+# Python bytecode & cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Virtual Environments
+.env
+.env.local
+.env.*.local
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs & Editors settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+pytestdebug.log
+
+# Database / Local storage dumps (if any)
+*.db
+*.sqlite3
+
+# Logs
+*.log
+logs/
